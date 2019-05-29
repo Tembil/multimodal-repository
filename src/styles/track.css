@@ -1,0 +1,42 @@
+.track{
+    width:80%;
+    height:105px;
+    margin-top:1%;
+    margin-left:1%;
+    background:white;
+    color:black;
+    display:inline-block;
+}
+
+.track-tools{
+    float:right;
+    margin-top:1%;
+    margin-left:1%;
+    width:18%;
+    height:105px;
+}
+
+.track-tools div{
+    margin-bottom:1%;
+}
+
+.tooltip-rectangle{
+    visibility: hidden;
+}
+
+.tooltip-rectangle.img{
+    visibility: hidden;
+}
+
+.rectangle{
+    height:20px;
+    width:5px;
+    background-color: black;
+    margin-left:5px;
+    display:inline-block;
+}
+
+.rectangle:hover .tooltip-rectangle{
+    visibility: visible;
+}
+
